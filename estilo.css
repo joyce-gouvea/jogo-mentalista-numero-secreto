@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 550px;
+  background-image: url('overlay.png'), url('Scarlet_Witch.jpg');
+  background-size: cover;
+  background-color: #000000;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 92vh;
+}
+
+.page-title {
+  margin: 0 0 5px;
+  color: brown;
+  text-shadow: 1px 1px 8px black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+.page-question,
+.page-subtitle {
+  margin-top: 16px;
+  letter-spacing: 3px;
+  color: #d1d1e0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page-subtitle {
+  margin-top: 55px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  background-color: #d1d1e0;
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #ffffff;
+  background-color: #d1d1e0;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button:hover {
+  box-shadow: 1px 1px 10px #e60000;
+  cursor: pointer;
+}
+
+button:active {
+  color: #d1d1e0;
+  background-color: #4d0000;
+  box-shadow: none;
+}
+
+.resultado {
+  color: #d1d1e0;
+  text-align: center;
+  margin-top: 35px;
+  letter-spacing: 2px;
+}
